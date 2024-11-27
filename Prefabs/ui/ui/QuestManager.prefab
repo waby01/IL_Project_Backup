@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1081335470727076973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4286397111296160459}
+  - component: {fileID: 7166841830967480411}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: QuestManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4286397111296160459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081335470727076973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 115.93616, y: 268.18173, z: 63.753777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7166841830967480411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081335470727076973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aee0c479c02e754583422a1eb67bbbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quests:
+  - questName: Ikan Badut
+    targetFishTag: IkanBadut
+    isCompleted: 0
+    questImage: {fileID: 0}
+  - questName: Ikan Salmond
+    targetFishTag: IkanSalmond
+    isCompleted: 0
+    questImage: {fileID: 0}
+  - questName: Ikan Gendut
+    targetFishTag: IkanGnedut
+    isCompleted: 0
+    questImage: {fileID: 0}
+  - questName: Ikan Biru
+    targetFishTag: IkanBiru
+    isCompleted: 0
+    questImage: {fileID: 0}
+  - questName: Ikan Hiu
+    targetFishTag: IkanHiu
+    isCompleted: 0
+    questImage: {fileID: 0}
